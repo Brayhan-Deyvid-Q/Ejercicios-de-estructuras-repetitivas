@@ -1,6 +1,9 @@
 #include <iostream>
 #include <windows.h>
 using namespace std;
+int multiplos(int a){
+	return a*7;
+}
 int main(){
 	int c=1;
 	int n, mult;
@@ -9,7 +12,7 @@ int main(){
 	cin>>n;
 	cout<<"Los múltiplos son:"<<endl;
 	for (c=1;c<=n;c++){
-		mult=c*7;
+		mult=multiplos(c);
 		cout<<mult<<endl;
 	}
 	return 0;
