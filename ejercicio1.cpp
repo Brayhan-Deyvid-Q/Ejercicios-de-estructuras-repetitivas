@@ -13,7 +13,7 @@ int main(){
 	cout<<"Los múltiplos son:"<<endl;
 	for (c=1;c<=n;c++){
 		mult=multiplos(c);
-		cout<<mult<<endl;
+		cout<<"7"<<" x "<<c<<" = "<<mult<<endl;
 	}
 	return 0;
 }
